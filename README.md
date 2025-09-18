@@ -1,22 +1,13 @@
 <div align="center">
 
-  <!-- Rounded photo using SVG clipPath (works on GitHub without CSS) -->
-  <svg width="140" height="140" viewBox="0 0 140 140" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-label="Profile photo">
-    <defs>
-      <clipPath id="avatar-clip">
-        <circle cx="70" cy="70" r="70" />
-      </clipPath>
-    </defs>
-    <image
-      href="./assets/profile.jpg"
-      xlink:href="./assets/profile.jpg"
-      width="140"
-      height="140"
-      preserveAspectRatio="xMidYMid slice"
-      clip-path="url(#avatar-clip)"
-    />
-    <circle cx="70" cy="70" r="69" fill="none" stroke="#e5e7eb" stroke-width="2" />
-  </svg>
+  <!-- Rounded avatar using inline styles -->
+  <img
+    src="./assets/profile.jpg"
+    alt="Profile photo"
+    width="140"
+    height="140"
+    style="border-radius:50%; object-fit:cover;"
+  />
 
   <h1>Edgar Manuel Pereira Borges</h1>
   <p><strong>Web Developer</strong></p>
@@ -24,7 +15,7 @@
   <p>
     <a href="mailto:ed9arborges@gmail.com">ed9arborges@gmail.com</a> ·
     <a href="tel:+351929058877">+351 929 058 877</a> ·
-    Porto — Portugal ·
+    Alfena — Porto ·
     <a href="https://www.linkedin.com/in/edgarborges/">LinkedIn</a>
   </p>
 </div>
