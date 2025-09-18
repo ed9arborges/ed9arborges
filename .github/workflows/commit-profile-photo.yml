@@ -1,0 +1,39 @@
+name: Commit profile photo
+on:
+  workflow_dispatch:
+    inputs:
+      image_url:
+        description: URL of the profile image to commit as assets/profile.jpg
+        required: true
+        default: "https://edborges.work/CV/eu%202022%20SQ_1749052324628.jpg"
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Create assets directory
+        run: mkdir -p assets
+
+      - name: Download image
+        env:
+          IMAGE_URL: ${{ github.event.inputs.image_url }}
+        run: |
+          curl -L "$IMAGE_URL" -o assets/profile.jpg
+
+      - name: Commit and push
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "${GITHUB_ACTOR}"
+            git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+            git add assets/profile.jpg
+            git commit -m "profile photo"
+            git push
+          else
+            echo "No changes to commit."
+          fi
