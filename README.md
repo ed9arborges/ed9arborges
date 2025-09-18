@@ -15,7 +15,7 @@
   <p>
     <a href="mailto:ed9arborges@gmail.com">ed9arborges@gmail.com</a> ·
     <a href="tel:+351929058877">+351 929 058 877</a> ·
-    Alfena — Porto ·
+    Porto — Portugal ·
     <a href="https://www.linkedin.com/in/edgarborges/">LinkedIn</a>
   </p>
 </div>
