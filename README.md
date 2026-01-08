@@ -30,14 +30,14 @@ Creative and dedicated Portuguese professional with 20 years of concurrent exper
 
 ## Skills
 - Web Development: HTML · CSS · JavaScript (ES6)
-- Full Stack: React · Node.js · Express · Prisma (ORM)
+- Full Stack: Next.js / React · Node.js · Express.js · Prisma (ORM)
 - UI/Styling: Tailwind CSS
 - Collaboration: Git and GitHub
 
 ## Project highlights
-- Refund2.0  
+- Appointments module  
   Modern, user-focused refund management interface with a clean, minimalist UI.  
-  Repo: [ed9arborges/Refund2.0](https://github.com/ed9arborges/Refund2.0)
+  Repo: [ed9arborges/appointments](https://github.com/ed9arborges/fisio-appointment-web)
 
 - HELPDESK (full‑stack)  
   Ticketing/helpdesk platform — API and Frontend working together. Built with a pragmatic, modern stack for clarity and speed.  
