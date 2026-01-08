@@ -23,7 +23,7 @@
 ---
 
 ## About me
-Versatile Full-Stack Developer now specialized in the modern JavaScript stack, Next.js, React and Node.js with extensive background in the digital industry blending front-end creativity with back-end technical excellence. Leverages a long-standing expertise in design and PHP-based development to build more intuitive and robust applications.
+Versatile Full-Stack Developer now specialized in the modern JavaScript stack, Next.js, React and Node.js with extensive background in the digital industry blending front-end creativity with back-end technical excellence. Leverages a long-standing expertise in design and development to build more intuitive and robust applications.
 
 ## Skills
 - Frontend: Next/React, JavaScript ES6+, HTML5, CSS3, Tailwind CSS
