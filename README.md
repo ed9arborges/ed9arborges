@@ -23,15 +23,14 @@
 ---
 
 ## About me
-Creative and dedicated Portuguese professional with 20 years of concurrent experience in two dynamic fields: graphic design and web design/development. This dual expertise allows me to blend artistic vision with technical proficiency to create engaging, functional digital experiences. I love being creative and solving problems.
-
-- Native Portuguese; strong English and Spanish (spoken and written)
-- Clean, modern aesthetic — design-first thinking with robust engineering
+Versatile Full-Stack Developer now specialized in the modern JavaScript stack, Next.js, React and Node.js with extensive background in the digital industry blending front-end creativity with back-end technical excellence. Leverages a long-standing expertise in design and PHP-based development to build more intuitive and robust applications.
 
 ## Skills
-- Web Development: HTML · CSS · JavaScript (ES6)
-- Full Stack: Next.js / React · Node.js · Express.js · Prisma (ORM)
-- UI/Styling: Tailwind CSS
+- Frontend: Next/React, JavaScript ES6+, HTML5, CSS3, Tailwind CSS
+- Backend: Node.js, Express.js, REST APIs
+- Database: SQL, Prisma ORM
+- Tools: Jest, VS Code
+- Additional: PHP, Design, E-commerce
 - Collaboration: Git and GitHub
 
 ## Project highlights
